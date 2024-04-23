@@ -16,7 +16,7 @@ app.use(express.json());
 app.use("/user",userRouter)
 
 app.get("/",(_req:Request,  res:Response)=>{
-    res.send("Franks sever is running")
+    res.send("Franks sever is up and running")
 })
 
 const start = () => {
